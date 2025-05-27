@@ -195,6 +195,16 @@ You'll see an interactive menu to choose between the three applications:
 
 ---
 
+🚩 **Interactive Session Feature:** After completing a project, the application will prompt you:
+
+```
+⚠️ Do you want to run another project? (Y/n):
+```
+
+You can choose **Y** to return to the main menu and run another project, or **n** to safely exit the application. This ensures a smooth and continuous interactive experience without restarting the program.
+
+---
+
 ## Project Structure
 
 Key files:
