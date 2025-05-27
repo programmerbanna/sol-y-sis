@@ -1,0 +1,31 @@
+{
+  "name": "sol-y-sis",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmerbanna/sol-y-sis.git"
+  },
+  "keywords": [],
+  "author": "Hasanul Haque Banna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmerbanna/sol-y-sis/issues"
+  },
+  "homepage": "https://github.com/programmerbanna/sol-y-sis#readme",
+  "description": "3 simple application.",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.10.7",
+    "amqplib": "^0.10.8",
+    "mongodb": "^6.16.0"
+  }
+}
